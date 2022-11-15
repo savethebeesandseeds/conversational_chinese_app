@@ -28,7 +28,7 @@ GPP += -Wall -lm -lcurl -lssl
 GCC += -Wall -lm -lcurl -lssl
 endif
 endif
-GPP += -Wno-pointer-arith
+# GPP += -Wno-pointer-arith
 
 # sdl_cflags := $(shell pkg-config --cflags sdl2 SDL2_mixer SDL2_image SDL2_ttf)
 # # # # # sdl_libs := $(shell pkg-config --libs sdl2 SDL2_mixer SDL2_image SDL2_ttf)
